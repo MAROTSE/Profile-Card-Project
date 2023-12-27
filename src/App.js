@@ -7,7 +7,7 @@ const skills = [
   {
     skill: 'JavaScript',
     level: 'intermediate',
-    color: '#EFD81D',
+    color: '#60DAFB',
   },
   {
     skill: 'Web Design',
@@ -22,7 +22,7 @@ const skills = [
   {
     skill: 'Bootstrap',
     level: 'intermediate',
-    color: '#60DAFB',
+    color: ' #A020F0',
   },
   {
     skill: 'React',
@@ -53,16 +53,18 @@ function Avatar() {
 function Intro() {
   return (
     <div className="data">
-      <h3>My Journey as adeveloper:</h3>
+      <h3>My Journey as a developer:</h3>
       <p>
-        Started the journey in July 2022.Did the FreecodeCamp RWD Certification
+        Started the journey in July 2022.Did the FreecodeCamp RWD Certification.
       </p>
       <p>
-        December 2022 Joined CodeCademy Pro continued my journey on wed dev
+        December 2022, joined CodeCademy Pro continued my journey on web dev
         career path.
       </p>
       <p>Also have done Js course on UDEMY by Brad Traversy.</p>
-      <p>Currently doing Ultmate React Course by Jonas Schemedtmann on UDEMY</p>
+      <p>
+        Currently doing Ultmate React Course by Jonas Schemedtmann on UDEMY.
+      </p>
     </div>
   );
 }
