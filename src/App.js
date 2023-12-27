@@ -16,17 +16,17 @@ const skills = [
   },
   {
     skill: 'Git and GitHub',
-    level: 'beginner',
+    level: 'not sure',
     color: '#E84F33',
-  },
-  {
-    skill: 'React',
-    level: 'beginner',
-    color: '#60DAFB',
   },
   {
     skill: 'Bootstrap',
     level: 'intermediate',
+    color: '#60DAFB',
+  },
+  {
+    skill: 'React',
+    level: 'beginner',
     color: '#FF3B00',
   },
 ];
@@ -83,6 +83,7 @@ function Skill({ skill, color, level }) {
       <span>
         {level === 'beginner' && '👶'}
         {level === 'intermediate' && '👍'}
+        {level === 'not sure' && '🙊'}
       </span>
     </div>
   );
