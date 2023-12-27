@@ -11,8 +11,8 @@ body {
   background-color: #f7f7f7;
 }
 
-h1 {
-  margin-bottom: 12px;
+h2,
+h3 {
   text-align: center;
 }
 

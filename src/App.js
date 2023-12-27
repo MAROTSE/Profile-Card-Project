@@ -45,7 +45,7 @@ function Avatar() {
   return (
     <div>
       <img src="Har.jpg" className="avatar" alt="Hargreaves Marotse" />
-      <h1>Hargreaves Marotse</h1>
+      <h2>Hargreaves Marotse</h2>
     </div>
   );
 }
@@ -54,17 +54,22 @@ function Intro() {
   return (
     <div className="data">
       <h3>My Journey as a developer:</h3>
-      <p>
-        Started the journey in July 2022.Did the FreecodeCamp RWD Certification.
-      </p>
-      <p>
-        December 2022, joined CodeCademy Pro continued my journey on web dev
-        career path.
-      </p>
-      <p>Also have done Js course on UDEMY by Brad Traversy.</p>
-      <p>
-        Currently doing Ultmate React Course by Jonas Schemedtmann on UDEMY.
-      </p>
+      <br />
+      <hr />
+      <div>
+        <p>
+          Started the journey in July 2022.Did the FreecodeCamp RWD
+          Certification.
+        </p>
+        <p>
+          December 2022, joined CodeCademy Pro continued my journey on web dev
+          career path.
+        </p>
+        <p>Also have done Js course on UDEMY by Brad Traversy.</p>
+        <p>
+          Currently doing Ultmate React Course by Jonas Schemedtmann on UDEMY.
+        </p>
+      </div>
     </div>
   );
 }
