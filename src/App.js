@@ -56,7 +56,7 @@ function Intro() {
       <h3>My Journey as a developer:</h3>
       <br />
       <hr />
-      <div>
+      <div className="para">
         <p>
           Started the journey in July 2022.Did the FreecodeCamp RWD
           Certification.
